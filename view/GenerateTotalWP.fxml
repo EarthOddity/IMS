@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="556.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GenerateTotalWPController">
+   <children>
+      <Label fx:id="labelTWP" layoutX="106.0" layoutY="30.0" text="Total weighted points for the countries">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="wpTable" layoutX="146.0" layoutY="84.0" prefHeight="190.0" prefWidth="264.0">
+        <columns>
+          <TableColumn fx:id="countryColumn" prefWidth="134.39997100830078" text="Country" />
+          <TableColumn fx:id="totalWPColumn" prefWidth="129.60003662109375" text="Results" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.TypeCountriesController">
+   <children>
+      <Label layoutX="129.0" layoutY="39.0" text="Type in the names of the countries!">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="349.0" text="Note: You can screen only up to 5 countries.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelCountry1" layoutX="115.0" layoutY="121.0" text="Country 1:" />
+      <Label fx:id="labelCountry2" layoutX="115.0" layoutY="159.0" text="Country 2:" />
+      <Label fx:id="labelCountry3" layoutX="115.0" layoutY="200.0" text="Country 3:" />
+      <Label fx:id="labelCountry4" layoutX="115.0" layoutY="240.0" text="Country 4:" />
+      <Label fx:id="labelCountry5" layoutX="115.0" layoutY="280.0" text="Country 5:" />
+      <TextField fx:id="country1TF" layoutX="248.0" layoutY="117.0" />
+      <TextField fx:id="country2TF" layoutX="248.0" layoutY="155.0" />
+      <TextField fx:id="country3TF" layoutX="248.0" layoutY="196.0" />
+      <TextField fx:id="country4TF" layoutX="248.0" layoutY="236.0" />
+      <TextField fx:id="country5TF" layoutX="248.0" layoutY="276.0" />
+      <Button fx:id="bSave" layoutX="510.0" layoutY="346.0" mnemonicParsing="false" onAction="#bSaveClick" text="Save" />
+   </children>
+</AnchorPane>

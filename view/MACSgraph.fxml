@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BubbleChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="endResultPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MACSgraphController">
+   <children>
+      <BubbleChart fx:id="macsGraph" layoutX="52.0" layoutY="46.0" prefHeight="350.0" prefWidth="560.0" title="MACS">
+        <xAxis>
+          <NumberAxis fx:id="csAxis" label="Competitive Strength" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="maAxis" label="Market attractiveness" side="LEFT" />
+        </yAxis>
+      </BubbleChart>
+   </children>
+</AnchorPane>
