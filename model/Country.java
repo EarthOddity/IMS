@@ -9,6 +9,7 @@ public class Country
   private ArrayList<String> fact;
   private ArrayList<Double> weightedPoints;
   private int numberOfFactors;
+  private int test;
 
 
 
